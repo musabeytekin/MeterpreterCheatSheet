@@ -44,7 +44,7 @@
 
 - mkdir - rmdir : create directory - remove a directory
 
-- execute -f -filename- : execute a file 
+- execute -f -filename- : execute a file (-i file, -H hide, -i execute and call)
 
 - search -f -filename- : search a file
 
@@ -55,6 +55,8 @@
 - background or bg : puts the session in the background
 
 - sessions -i -session -id- : go to session
+
+- sessions -l : show session's list
 
 - bgrun or bglist or bgkill : in the background, the meterpreter executes, lists, finishes
 
