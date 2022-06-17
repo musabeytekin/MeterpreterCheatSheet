@@ -44,7 +44,7 @@
 
 - mkdir - rmdir : create directory - remove a directory
 
-- execute -f -filename- : execute a file (-i file, -H hide, -i execute and call)
+- execute -f -filename- : execute a file 
 
 - search -f -filename- : search a file
 
@@ -56,7 +56,38 @@
 
 - sessions -i -session -id- : go to session
 
-- sessions -l : show session's list
-
 - bgrun or bglist or bgkill : in the background, the meterpreter executes, lists, finishes
+
+- getuid : Displays the privilege class of the connected session
+
+- getprivs : Displays processes authorized in the connected session.
+
+- getsystem -t 0: tries privilege escalation of connected users
+
+- reg -command- : manage of target system's registry ('reg -h' for help)
+
+- hashdump : get password hash in target system
+
+- webcam_list : list of target system webcams
+
+- webcam_snap : get the webcam capture
+
+- screenshot : get the screenshot
+
+- keyscan_start : start capture keystrokes 
+
+- keyscan_stops : stop capture keystrokes 
+
+- keyscan_dump : dump keystroke captures
+
+- irb : Opens an environment where we can create and run metasploit scripts
+
+- run -script- : run the script
+
+- load -extension- : load an extension
+
+- load -l : list extension
+
+
+
 
